@@ -1,0 +1,84 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: darkslategrey;
+  flex-wrap: wrap;
+}
+.container {
+  height: 500px;
+  width: 420px;
+  background-color: rgb(182, 235, 228);
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-topo {
+  text-align: center;
+  font-size: 1.3em;
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 25px;
+}
+.section {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  margin-left: 10px;
+  background-color: rgb(255, 225, 0);
+  border-radius: 25px;
+}
+.header-section {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+.article {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+.footer-section {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+.footer {
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.nav {
+  text-align: center;
+  width: 80px;
+  height: 300px;
+  margin: 10px;
+  padding-top: 10px;
+  background-color: rgb(141, 132, 63);
+  border-radius: 25px;
+}
+.out {
+  flex-grow: 1;
+}
+aside {
+  text-align: center;
+  width: 80px;
+  height: 300px;
+  margin: 10px;
+  padding-top: 10px;
+  background-color: rgb(141, 132, 63);
+  border-radius: 25px;
